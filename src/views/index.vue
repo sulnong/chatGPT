@@ -5,7 +5,7 @@ import { Cloud } from "laf-client-sdk";
 import { marked } from "marked";
 
 const cloud = new Cloud({
-  baseUrl: "https://jyf6wk.laf.dev",
+  baseUrl: "https://xkt0xs.laf.dev/",
   getAccessToken: () => "",
   timeout: 60000,
 });
@@ -82,7 +82,7 @@ function setScreen() {
 <template>
   <div class="page">
     <div class="begintitle">
-      <h1 v-show="!list.length" @click="send">左风的ChatGPT</h1>
+      <h1 v-show="!list.length" @click="send">性感 ChatGPT</h1>
     </div>
 
     <div id="myList">
@@ -187,7 +187,7 @@ function setScreen() {
         type="text"
         id="message"
         placeholder="输入你的指令"
-        maxlength="100"
+        maxlength="500"
       />
       <div class="btn-send" id="submit-btn" @click="send">
         <div class="send-view" style="display: flex">
